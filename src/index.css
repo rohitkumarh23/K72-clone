@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: font1;
+    src: url(../public/fonts/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: font2;
+    src:url(../public/fonts/Lausanne-500.woff2);
+}
+
+*::selection{
+  background-color: #D3FD50;
+  color: black;
+}
+
+
+
+body{
+  background-image: "src\assets\violet girl.jpg";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.moveX{
+  animation: moving;
+  animation-timing-function: linear;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  
+}
+.link{
+  overflow: hidden;
+}
+
+.moveLink{
+  transition: all ease 0.3s;
+  opacity: 0;
+}
+
+.link:hover .moveLink{
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+  opacity: 1;
+}
+
+@keyframes moving {
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+  
+}
+
