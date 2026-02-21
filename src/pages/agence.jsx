@@ -64,24 +64,23 @@ const Agence = () => {
 
 
   return (
-    <div className='text-stone-800 font-[600] bg-stone-950 p-3 '>
+    <div className='text-stone-800 font-[600] lg:h-full h-screen bg-stone-950 p-3 '>
       <div id='page1' className='py-1  '>
-        <div ref={imageDivRef} className='h-[20vw] w-[15vw] overflow-hidden  absolute top-50 left-[30vw]'>
+        <div ref={imageDivRef} className='lg:h-[20vw] lg:w-[15vw] h-[39vw] w-[24vw] overflow-hidden  absolute lg:top-50 top-0 lg:left-[30vw] left-[20vw]'>
           <img ref={imageRef} className='h-full w-full object-cover rounded-3xl' src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg" alt="" />
         </div>
         <div className='relative'>  
-          <div className=' mt-[55vh]'>
+          <div className=' lg:mt-[55vh] mt-[20vh]'>
             <h1 className='text-[20vw] text-center uppercase leading-[16vw]'>Soixan7e <br />
               Douze</h1>
           </div>
-          <div className='pl-[43%]   mt-16'>
-            <p className='text-5xl'>
+          <div className='lg:pl-[43%]   lg:mt-16 mt-25 p-3 '>
+            <p className='lg:text-5xl text-xl lg:leading-13 leading-5.5 text-white/40'>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Notre curiosité nourrit notre créativité. On reste humbles et on dit non aux gros egos, même le vôtre. Une marque est vivante. Elle a des valeurs, une personnalité, une histoire. Si on oublie ça, on peut faire de bons chiffres à court terme, mais on la tue à long terme. C’est pour ça qu’on s’engage à donner de la perspective, pour bâtir des marques influentes.                </p>
           </div>
         </div>
       </div>
-      {/* <div className='section-2 h-screen'>
-      </div> */}
+     
     </div>
 
   )

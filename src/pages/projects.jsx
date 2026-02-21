@@ -1,7 +1,7 @@
 import ProjectCard from "../components/projects/ProjectCard"
 import { useRef } from "react"
 import gsap from "gsap"
-import { ScrollTrigger } from "gsap/all"
+import { ScrollSmoother, ScrollTrigger } from "gsap/all"
 import { useGSAP } from "@gsap/react"
 
 // Import all images
@@ -26,6 +26,8 @@ const Projects = () => {
 
     useGSAP(() => {
 
+
+
         const sections = gsap.utils.toArray(".hero")
 
         sections.forEach((section) => {
@@ -42,7 +44,7 @@ const Projects = () => {
                         start: "top 85%",
                         end: "top 30%",
                         scrub: 0.1,
-                        invalidateOnRefresh:true
+                        invalidateOnRefresh: true
                     }
                 }
             )
@@ -52,6 +54,8 @@ const Projects = () => {
 
     }, { scope: container })
 
+
+   
 
 
 
