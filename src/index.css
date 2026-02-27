@@ -9,6 +9,11 @@
     src:url(../public/fonts/Lausanne-500.woff2);
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 *::selection{
   background-color: #D3FD50;
   color: black;
