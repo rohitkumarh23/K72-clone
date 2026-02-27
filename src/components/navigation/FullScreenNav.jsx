@@ -100,12 +100,12 @@ const FullScreenNav = () => {
                     </div>
                     <div onClick={() => {
                         setNavOpen(false)
-                         }}  className='lg:h-32 lg:w-32 h-25  w-25 cursor-pointer   relative '>
-                        <div className='lg:w-1 w-0.5 lg:h-44 h-34  bg-white  -rotate-45 origin-top absolute'></div>
-                        <div className='lg:w-1 w-0.5 lg:h-44 h-34 right-0 bg-white  rotate-45 origin-top absolute'></div>
+                         }}  className='lg:h-32 lg:w-32 h-27  w-23 cursor-pointer   relative '>
+                        <div className='lg:w-1 w-0.5 lg:h-44 h-32  bg-[#D3FD50]  -rotate-45 origin-top absolute'></div>
+                        <div className='lg:w-1 w-0.5 lg:h-44 h-32 right-0 bg-[#D3FD50]  rotate-45 origin-top absolute'></div>
                     </div>
                 </div>
-                <div className='lg:mt-0 md:mt-56 mt-42'>
+                <div className='lg:mt-0 md:mt-56 mt-38'>
                     <div onMouseEnter={() => {
                         title.current.style.height = "100%"
                         title.current.style.zIndex = 99
