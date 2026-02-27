@@ -105,7 +105,7 @@ const FullScreenNav = () => {
                         <div className='lg:w-1 w-0.5 lg:h-44 h-34 right-0 bg-white  rotate-45 origin-top absolute'></div>
                     </div>
                 </div>
-                <div className='lg:mt-0 md:mt-56 mt-33'>
+                <div className='lg:mt-0 md:mt-56 mt-42'>
                     <div onMouseEnter={() => {
                         title.current.style.height = "100%"
                         title.current.style.zIndex = 99
@@ -114,8 +114,8 @@ const FullScreenNav = () => {
                         title.current.style.height = "0%"
                         title.current.style.zIndex = -99
 
-                    }} className='link origin-top lg:py-2 md:py-1 py-1 relative border-t-[0.22px] border-white '>
-                        <h1 className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[15vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>PROJETS</h1>
+                    }} className='link origin-top lg:py-2 md:py-1 py-2 relative border-t-[0.22px] border-white '>
+                        <h1 className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[16vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>PROJETS</h1>
                         <div ref={title} className='moveLink absolute text-black flex items-center justify-center top-0 h-0 w-full -z-10 transition-all   bg-[#D3FD50]'>
                             <div className='moveX flex font-[font2]   items-center'>
                                 <h2 className='whitespace-nowrap  text-center  lg:text-[8vw] text-[15vw] md:text-[14vw] lg:leading-[0.9] leading-0 font-medium'>POUR TOUT VIOR</h2>
@@ -131,8 +131,8 @@ const FullScreenNav = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='link font-[font2] lg:py-2 py-1  md:py-1 origin-top relative border-t-[0.22px] border-white '>
-                        <h1  className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[15vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>AGENCE</h1>
+                    <div className='link font-[font2] lg:py-2 py-2  md:py-1 origin-top relative border-t-[0.22px] border-white '>
+                        <h1  className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[16vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>AGENCE</h1>
                         <div className='moveLink absolute lg:py-2 md:py-2 py-2 text-black flex top-0 items-center justify-center   bg-[#D3FD50]'>
                             <div className='moveX flex   items-center justify-center'>
                                  <h2 className='whitespace-nowrap  text-center  lg:text-[8vw] text-[15vw] lg:leading-[0.9]  md:text-[14vw] leading-0 font-medium'>POUR TOUT VIOR</h2>
@@ -148,8 +148,8 @@ const FullScreenNav = () => {
                             </div>
                         </div>
                     </div>
-                      <div className='link font-[font2] lg:py-2 py-1  md:py-1 origin-top relative border-t-[0.22px] border-white '>
-                        <h1  className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[15vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>AGENCE</h1>
+                      <div className='link font-[font2] lg:py-2 py-2  md:py-1 origin-top relative border-t-[0.22px] border-white '>
+                        <h1  className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[16vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>CONTACT</h1>
                         <div className='moveLink absolute lg:py-2 md:py-2 py-2 text-black flex top-0 items-center justify-center   bg-[#D3FD50]'>
                             <div className='moveX flex   items-center justify-center'>
                                  <h2 className='whitespace-nowrap  text-center  lg:text-[8vw] text-[15vw] lg:leading-[0.9]  md:text-[14vw] leading-0 font-medium'>POUR TOUT VIOR</h2>
@@ -165,8 +165,8 @@ const FullScreenNav = () => {
                             </div>
                         </div>
                     </div>
-                      <div className='link font-[font2] lg:py-2 py-1  md:py-1 origin-top relative border-y-[0.22px] border-white '>
-                        <h1  className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[15vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>AGENCE</h1>
+                      <div className='link font-[font2] lg:py-2 py-2  md:py-1 origin-top relative border-y-[0.22px] border-white '>
+                        <h1  className='font-[font2] text-center lg:mt-0 mt-1 md:mt-1  lg:text-[8vw] md:text-[12vw] text-[16vw] lg:leading-[0.9] md:leading-[0.8] leading-10 font-medium'>BLOGUE</h1>
                         <div className='moveLink absolute lg:py-2 md:py-2 py-2 text-black flex top-0 items-center justify-center   bg-[#D3FD50]'>
                             <div className='moveX flex   items-center justify-center'>
                                  <h2 className='whitespace-nowrap  text-center  lg:text-[8vw] text-[15vw] lg:leading-[0.9  md:text-[14vw]] leading-0 font-medium'>POUR TOUT VIOR</h2>
